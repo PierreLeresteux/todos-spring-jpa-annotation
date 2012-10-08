@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Built-By: pierre
+Build-Jdk: 1.7.0_03
+Created-By: Pierre
