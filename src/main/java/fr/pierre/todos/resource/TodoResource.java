@@ -18,8 +18,8 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 import static javax.ws.rs.core.MediaType.APPLICATION_XML;
 
 @Path("/todo")
-@Consumes({APPLICATION_JSON, APPLICATION_XML})
-@Produces({APPLICATION_JSON + ";charset=utf-8", APPLICATION_XML + ";charset=utf-8"})
+@Consumes({APPLICATION_JSON})
+@Produces({APPLICATION_JSON + ";charset=utf-8"})
 @Singleton
 @Component
 public class TodoResource {
